@@ -1,0 +1,14 @@
+$(call inherit-product, device.mk)
+
+TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_SCREEN_WIDTH := 1280
+TARGET_SCREEN_HEIGHT := 720
+
+PRODUCT_DEVICE := rpi4
+PRODUCT_NAME := any_rpi4
+PRODUCT_BRAND := Raspberry
+PRODUCT_MODEL := Raspberry Pi 4
+PRODUCT_MANUFACTURER := Raspberry
+PRODUCT_RELEASE_NAME := Raspberry Pi 4
+
+WITH_SU := true
